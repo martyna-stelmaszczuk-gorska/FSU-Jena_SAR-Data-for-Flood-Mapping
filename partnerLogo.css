@@ -1,7 +1,7 @@
  .partnerlogo
 {
 
- content: url(./resources/partnerLogo.jpg);
+ content: url('./resources/partnerLogo.jpg');
 top:0;
   background: #fff;
   background-color: #fff; 
