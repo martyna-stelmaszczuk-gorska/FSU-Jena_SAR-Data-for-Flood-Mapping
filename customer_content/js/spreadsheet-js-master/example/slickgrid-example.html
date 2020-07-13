@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spreadsheet example usage with slickgrid</title>
+    <link rel="stylesheet" href="../lib/slickgrid/slick.grid.css" type="text/css"/>
+    <link rel="stylesheet" href="../lib/slickgrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+    <link rel="stylesheet" href="../lib/slickgrid/examples/slick-default-theme.css" type="text/css"/>
+</head>
+<body>
+	<div style="position:relative">
+		<div style="width:500px; height: 500px">
+			<div id="myGrid" style="width:100%;height:100%;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/slickgrid/lib/firebugx.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/lib/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/lib/jquery.event.drag-2.0.min.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/slick.core.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/plugins/slick.autotooltips.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/plugins/slick.cellrangedecorator.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/plugins/slick.cellrangeselector.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/plugins/slick.cellcopymanager.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/plugins/slick.cellselectionmodel.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/slick.editors.js"></script>
+	<script type="text/javascript" src="../lib/slickgrid/slick.grid.js"></script>
+	<script type="text/javascript" src="../spreadsheet.core.js"></script>
+	<script type="text/javascript" src="../lib/efp/efp.js"></script>
+	<script type="text/javascript" src="../spreadsheet.slick.js"></script>	
+	<script type="text/javascript">
+		var rawData = {
+			A1:{
+				formula:'Example',
+				metadata:{
+					colspan:4
+				}
+			},
+			A3:{
+				formula:'SUM'
+			},
+			A4:{
+				formula:'COUNT'
+			},
+			A5:{
+				formula:'RANDBETWEEN'
+			},
+			B3:{
+				formula:'=SUM(C3:C1000)'
+			},
+			B4:{
+				formula:'=COUNT(C3:D1000)'
+			},
+			B5:{
+				formula:'=RANDBETWEEN(1,D3)'
+			}
+		};
+
+		for(var x = 'C'.charCodeAt(0); x < 'E'.charCodeAt(0); x++){
+			for(var y = 3 ; y <= 1000; y++){
+				rawData[String.fromCharCode(x)+y] = {formula:'=RANDBETWEEN(1,100)'};
+			}
+		}
+
+		var spreadsheetSlick = new Spreadsheet.Slick('#myGrid',rawData);
+	</script>
+</body>
+</html>

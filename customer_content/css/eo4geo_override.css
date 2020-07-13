@@ -1,0 +1,15 @@
+/**
+ * eo4geo theme for reveal.js. (...\eo4geo_reveal_template\css\theme)
+ *
+ * By Hakim El Hattab, http://hakim.se
+ * adapted by: University of Salzburg, 2020
+ */
+ /*import font:*/
+ 
+ 
+body:after {
+content: url(../images/eo4geocourses_logo.png);
+position: fixed;
+bottom: 3.5em;
+left: 3.5em;
+box-shadow: 5px 5px 10px #000; }
