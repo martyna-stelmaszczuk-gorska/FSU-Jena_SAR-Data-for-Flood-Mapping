@@ -60,7 +60,7 @@
 					
 				 <div class = "eo4geologo" style="width: 11%;height : 11%" ></div>	
 			
-				 <div class = "partnerlogo" style="width: 8%;height: 15%" ></div>		
+				 <div class = "partnerlogo" style="width: 16%;height: 8%" ></div>		
 				 <div  class = "presentation_title" style=" text-align: center " >Flood mapping with Synthetic Aperture Radar (SAR)</div>	<!--The title of the presentation appears on each slide-->
 				 
 
@@ -70,16 +70,16 @@
 				<>  	dc:title "Flood mapping with Synthetic Aperture Radar?";
 					dc:creator "Martyna Stelmaszczuk-Górska, University of Jena";
 					dc:subject "Synthetic Aperture Radar, Copernicus, EO4GEO, WP5, Flood, Earth Observation";
-					dc:abstract "This presentation gives a basic overview on the use of Earth observation data from Synthetic Aperture Radar (SAR) systems for flood mapping. It was prepared using partly the EO College materials available at https://eo-college.org/resources/#results";
+					dc:abstract "This presentation gives a basic overview on the use of Earth observation data from Synthetic Aperture Radar (SAR) systems for flood mapping. It was prepared using modified EO College materials available at https://eo-college.org/resources/#results";
 					dc:tableOfContents "(1) What is a flood?; (2) Physical properties of water; (3) Why use radar remote sensing?; (4) Principles of imaging radar; 
-						(5) Parameters influencing radar image; (6) SAR backscatter from water;(7) Flood mapping - methods; (8) Flood mapping with SAR: - example; (9) Reference list;";
-					dc:description "Learning outcomes: Understand the basics of SAR; Understand interaction bewteen SAR signal and water; Plan flood mapping using SAR data;";
+					(5) Parameters influencing radar image; (6) SAR backscatter from water;(7) Flood mapping: best practice; (8) Flood mapping: hands-on; (9) Reference list;";
+					dc:description "Learning outcomes: Understand the basics of imaging radar; Understand interaction bewteen Synthetic Aperture Radar (SAR) signal and water; Apply flood mapping using SAR data;";
 					dc:contributor "Clémence Dubois, Carsten Pathe";
 					dc:created "2020-10-30";
 					dc:type "StaticResource";
 					dc:format "html";
 					dc:language "EN"; 
-					dc:SizeOrDuration "45min"
+					dc:SizeOrDuration "60min"
 					dc:audience "students and professionals";
 					dc:educationLevel "EQF 6";
 					dc:source "EO College";
@@ -97,7 +97,7 @@
 				<!-- Introductory slides --> 
 				<section>
 					<h1 style="color:#34495E">Flood mapping with Synthetic Aperture Radar</h1>
-					<br><img width="775" height="450" data-src="resources\template_WhatCopernicus\FloodSentinel1.jpg" alt="Flood on Sentinel-1">
+					<br><img width="575" height="325" data-src="resources\template_WhatCopernicus\FloodSentinel1.jpg" alt="Flood on Sentinel-1">
 					<small>(© contains modified Copernicus Sentinel data (2019), processed by ESA, CC BY-SA 3.0 IGO, 
 					<a href="https://www.esa.int/ESA_Multimedia/Images/2019/03/Floods_imaged_by_Copernicus_Sentinel-1#.X5w0pnb7xYc.link">source</a>)</small>	
 				</section>
@@ -107,7 +107,15 @@
 					<h2>This course is a basic course on mapping of floods using radar remote sensing data.</h2>
 					<h4><i>It has been prepared primarily using modified <a href="https://eo-college.org/">EO College</a> resources available under CC BY-SA 4.0 license. 
 					In case of using other materials, appropriate references / copyrights have been provided.</i></h4>
-					You can navigate through vertical slides by pressing the Down / Up keys on your keyboard or the navigation arrows at the bottom-right of each slide.</h2>
+					You can navigate through vertical slides by pressing the Down / Up keys on your keyboard or the navigation arrows at the bottom-right of each slide.
+					You can get the overview of all slides by pressing ESC key.</h2>
+				</section>
+				<section>
+					<h1 style="color:#34495E">Learning Objectives</h1>
+					<ul>
+						<li><h2>Understand basics of imaging radar</h2></li>
+						<li><h2>Understand interaction between Synthetic Aperture Radar (SAR) signal and water</h2></li> 
+						<li><h2>Apply flood mapping using SAR data</h2></li>
 				</section>
 				<section class="scrollable">
 					<h1 style="color:#34495E">Content of this course</h1>
@@ -115,60 +123,17 @@
 						<h2 style="text-align:left">2. Physical properties of water</h2>
 						<h2 style="text-align:left">3. Why use radar remote sensing?</h2>
 						<h2 style="text-align:left">4. Principles of imaging radar</h2>
-						<h2 style="text-align:left">5. Parameters influencing radar image</h2>
+						<h2 style="text-align:left">5. Parameters influencing SAR image</h2>
 						<h2 style="text-align:left">6. SAR backscatter from water</h2>
-						<h2 style="text-align:left">7. Flood mapping - methods</h2>
-						<h2 style="text-align:left">8. Flood mapping - example</h2>	
+						<h2 style="text-align:left">7. Flood mapping: best practice</h2>
+						<h2 style="text-align:left">8. Flood mapping: hands-on</h2>	
 						<h2 style="text-align:left">9. References</h2>
 
 				</section>
-				<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section class="scrollable">
-					<h1>Copernicus</h1> 
-					<br>Copernicus and Galileo are the two flagships of the <em>European Space Policy</em>. Galileo denotes the European satellite navigation system, while Copernicus is the name of the European Earth observation <a href="https://www.copernicus.eu">programme</a>
-					<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-				</section>
-				
-					<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section >
-					<h1>Copernicus</h1> 
-					<br>
-					 
-					<br><img  style="width: 100%; max-width: 600px; max-height:600px; height:100%" data-src="resources\2560pxAERONET.jpg" alt="Copernicus allegory">
-					 
-				</section>
-				
-				<!-- AUTHORS: Same content as above - now as example in Markdown language   --> <!-- AUTHORS: for horizontally organised slides, use three dashes ---, for vertical slides two dashes -- -->
-				<!--section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
-				                    <script type="text/template">
-                        # What is Copernicus?
-                        (A demo slide deck using the Reveal.js framework)
-					
-						
-                        ---
-						
-                        # Copernicus
-                        Copernicus and Galileo are the two flagships of the European Space Policy. Galileo denotes the European satellite navigation system, while Copernicus is the name of the <a href="https://www.copernicus.eu">European Earth observation programme</a>
-						<img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-						
-						
-						--
-						
-						# Earth observation (EO)
-						EO is one out of three main space assets
-						- SatNav
-                        - SatCom
-						- SatObs (EO)
-						
-						<img width="600" height="250" data-src="resources\template_WhatCopernicus\3SpaceComponents.png" alt="3SpaceComponents">	
-                    </script>
-                </section-->
-				
-			
-				
+
 				<!-- I. SLIDEs--> 
 				<section id="What is a flood?">	
-					<section>
+					<section class="scrollable">
 					<h2>What is a flood?</h2>
 					<ul>
 						<li>Water submerging usually dry land</li>
@@ -176,215 +141,16 @@
 						<li>Causes physical damage and affects water, food and crops supplies and supports spread of water-borne diseases</li>				
 					</ul>
 					<br><img width="400" height="250" data-src="resources\template_WhatCopernicus\FloodSentinel1.jpg" alt="Floods imaged by Copernicus Sentinel-1">
-					<br><small>Floods caused by Cyclone Idai imaged by Copernicus Sentinel-1 (© contains modified Copernicus Sentinel data (2019), processed by ESA, CC BY-SA 3.0 IGO, 
+					<small>Floods caused by Cyclone Idai imaged by Copernicus Sentinel-1 (© contains modified Copernicus Sentinel data (2019), processed by ESA, CC BY-SA 3.0 IGO, 
 					<a href="https://www.esa.int/ESA_Multimedia/Images/2019/03/Floods_imaged_by_Copernicus_Sentinel-1#.X5w0pnb7xYc.link">source</a>).</small>
 					</section>
-					<section>
-					</section>
 				</section>
-				
-				
-				<!--section id="Hydrosphere">
-					<section > 
-						<h2>The Hydrosphere</h2> 
-						<!-- AUTHORS: CREATE BULLETED LIST: --> 
-						<!--ul>
-							<li>Part of the Geosphere (Atmo-, Hydro-, Bio-, Pedo-, Lithosphere)</li>
-							<li>Discontinuous layer of water at or near the Earth’s surface; 
-							includes all liquid and frozen surface waters, groundwater held in soil and rock, and atmospheric water vapor
-							(<a href="http://www.britannica.com/">Encyclopedia Britannica</a>)</li>
-						</ul>
-						<br><img width="350" height="275" data-src="resources\template_WhatCopernicus\Earth.jpg" alt="Earth">	
-						<br><small>The Earth seen from space (© ESA, <a href="https://www.esa.int/ESA_Multimedia/Images/2000/10/Meteosat-2_Earth_image#.X5gz80HQ6Is.link">source</a>).</small>
-						<aside class="notes">
-						
-						</aside>
-					</section>				
-					<section >
-						<h2>Water distribution</h2>
-						<ul>
-							<li>70.9% of Earth’s surface covered by water</li>
-						</ul>
-						<br><img width="500" height="400" data-src="resources\template_WhatCopernicus\WaterDistribution.png" alt="WaterDistribution">
-						<br><small>Earth‘s water distribution (Gleick, 1996).</small>
-					</section>
-					
-					<section >
-						<h2>Importance of water</h2>
-						<ul>
-							<li>Importance of water for life on Earth</li>
-							<li>Required for solution of chemicals</li>
-							<li>Required for biochemical reactions</li>
-							<li>As good ionizer important for function of macromolecules</li>
-							<li>Transport of materials (e.g. nutrients)</li>
-							<li>Habitat for plants and animals</li>
-						</ul>
-						<br><img width="400" height="300" data-src="resources\template_WhatCopernicus\HectorLake.png" alt="HectorLake"></a>
-						<br><small>Hector Lake, Canada (© Antony Stanley)</small>
-						
-					</section>
-				</section>	
-				<!--section id="HydrologicCycle">
-					<section>
-						<h2>Hydrologic cycle</h2>
-						<ul>
-							<li>Model describing the continuous movement of water between land masses, oceans and atmosphere</li>
-							<li>Connected with phase changes of water:</li>
-							<ul>
-								<li>gaseous – vapour</li>
-								<li>liquid - water</li>
-								<li>solid – ice/snow</li>
-							</ul>
-						</ul>
-						<br><img width="350" height="350" data-src="resources\template_WhatCopernicus\HydrologicCycle.jpg" alt="Hydrologic Cycle">
-						<br><small>The Hydrologic Cycle (© Philippe Rekacewicz, February 2006, <a href="https://www.grida.no/resources/5623">source</a>).</small>
-						<aside class="notes">
-						
-						</aside>
-					</section>
-					<section>
-					<h2>Importance of water in climatology and meteorology</h2>
-					<div style="width: 50%; float: left;">
-						<ul>
-							<li>This links the hydrologic cycle with the Earth’s energy budget and the climate system (meteorology and climatology)</li>
-						</ul>
-						<br><img width="450" height="250" data-src="resources\template_WhatCopernicus\Water_Climatology.png" alt="Climatology">
-						<br><small>Energy required to convert 1 g of ice to steam at 120°C (Serway et al., 1999)</small>
-					</div>
-					<div style="width: 50%; float: left;">
-						<ul>
-							<li>Phase changes of water require different amounts of energy</li>
-						</ul>
-						<br><img width="400" height="350" data-src="resources\template_WhatCopernicus\Water_Meteorology.png" alt="Meteorology">
-						<br><small>Energy required for water phase changes (© EOS 2013)</small>
-					</div>
-						<aside class="notes">
-						
-						</aside>
-					</section>									
-				</section>	
+
 				<!-- II. SLIDEs-->  
-				<section id="Water- Physical properties">
-					<section class="scrollable">
-						<h2>Water - Physical properties</h2>
-						<ul>
-							<li>Water is a molecule containing one oxygen (O) and two hydrogen (H) atoms</li>
-							<li>Chemical formula is H<sub>2</sub>O</li>
-							<li>H<sub>2</sub>O is a polar molecule</li>
-							<ul>
-								<li>Center of negative charge near O atom</li>
-								<li>Center of positive charge near H atom</li>
-							</ul>
-							<li>Therefore H<sub>2</sub>O acts as a dipole</li>
-							<ul>
-								<li>Dipole = pair of two commensurate and opposite electric charges</li>
-							</ul>
-						</ul>
-						<br><img width="420" height="350" data-src="resources\template_WhatCopernicus\WaterMolecule.png" alt="Water Molecule">
-						<br><small>Water molecule (Serway & Beichner, 2004)</small>
-						<aside class="notes">
-						
-						</aside>
-					</section>
-					<section class="scrollable">
-					<h2>Water – Orientational polarization</h2>
-					<div style="width: 50%; float: left;">					
-						<p>Polar H<sub>2</sub>O molecules are randomly oriented when no electric field is present</p>
-						<br>
-						<br>
-						<br><img width="300" height="200" data-src="resources\template_WhatCopernicus\Polar1.png" alt="PolarMolecule1">
-					</div>
-					<div style="width: 50%; float: left;">
-						<p>If an external electric field is applied, the H<sub>2</sub>O molecules partially align with the field; 
-						if external electric field is switched off, molecules swing back</p>
-						<br><img width="300" height="250" data-src="resources\template_WhatCopernicus\Polar2.png" alt="PolarMolecule2">
-					</div>
-						<br><small>Orientational polarization of polar molecules (Serway & Beichner, 2004)</small>
-						<ul>
-							<li>If dipoles are orientational polarized:</li>
-							<ul>
-								<li>They show strong interaction with electric field → high dielectric constant</li>
-								<li>Impinging wave is scattered back almost entirely</li>
-								<li>This is the case for water surfaces or very wet soils (large amount of water and thus high dielectric constant)</li>
-							</ul>
-							<li>Only liquid water as an abundant natural material shows orientational polarization</li>
-						</ul>
-						<aside class="notes">
-						
-						</aside>
-					</section >
-					<section>
-						<h2>Water - Orientational polarization</h2>
-						<ul>
-							<li>Orientational polarization depends on:</li>
-							<ul>
-								<li>Temperature</li>
-									<ul>
-										<li>In ice (frozen water) the H<sub>2</sub>O dipole are immobilized and therefore show no orientational polarization</li>
-									</ul>
-								<li>Frequency of the alternating electric field</li>
-									<ul>
-										<li>Above a certain frequency – the relaxation frequency – the dipoles cannot follow 
-										the oscillations of the electric field any longer</li>
-										<ul>
-											<li>&#949<sub>r</sub> decreases</li>
-											<li>Microwave remote sensing of water/soil moisture is possible only below the relaxation frequency of water (≈10 GHz)!
-										</ul>
-									</ul>
-								</ul>
-								<aside class="notes">
-						
-						</aside>			
-					</section>	
-					<section>
-						<h2>Water - Dielectric properties</h2>
-						<ul>
-							<li>Dielectric constant of a material (e.g. soil) is directly related to its water content</li>
-							<li>Dielectric properties determine scattering and attenuation characteristics of a medium (attenuation = loss of energy of the wave)</li>
-							<li>These effects characterized by complex relative dielectric constant &#949<sub>r</sub>:</li>
-							<p>&#949<sub>r</sub> = &#949'<sub>r</sub> - i&#949''<sub>r</sub></p>
-							<p>i = &#8730-1 </p>
-							<p>&#949'<sub>r</sub>	real part, lossless dielectric constant</p>
-							<p>&#949''<sub>r</sub>	imaginary part, describes the energy losses</p>
-							<li>Examples:</li>
-							<ul>
-								<li>dry soil: &#949<sub>r</sub> ≈ 2-4</li>
-								<li>water: &#949<sub>r</sub> ≈ 73 (at 5 GHz [C-band, e.g. Sentinel-1] and 20°C)</li>								
-							</ul>
-						</ul>
-								<aside class="notes">
-						
-						</aside>			
-					</section>
-					<section>
-						<h2>Water - Dielectric properties</h2>
-						<ul>
-							<li>Effect of attenuation is exponential</li>
-							<ul>
-								<li>Exponential decay of wave as it travels through a medium</li>
-							</ul>
-							<li>Penetration depth &#948<sub>d</sub>:</li>
-							<ul>
-								<li>Defined as distance where power of wave is reduced to 1/e</li>
-								<li>Related to &#949'<sub>r</sub> and &#949''<sub>r</sub> via the wavelength</li>
-								<p>&#948<sub>d</sub> = &#955&#8730&#949'<sub>r</sub> / 2&#960&#949''<sub>r</sub>
-								<li>&#955 ~ &#948<sub>d</sub> : the longer the wavelength &#955 the greater the penetration depth 
-								&#948<sub>d</sub> at a given dielectric constant</li>
-								<li>&#949<sub>r</sub> ~ 1/&#948<sub>d</sub> : the larger &#949<sub>r</sub> the smaller the penetration depth 
-								&#948<sub>d</sub> at given wavelength</li>
-							</ul>
-							<li><b>Penetration depth into water surfaces is very small (in the range of a few millimeters)</b></li>
-						</ul>
-								<aside class="notes">
-						
-						</aside>			
-					</section>										
-				</section>
-				<!-- IV. SLIDEs-->  
 				<section id="Why use radar remote sensing?">
-					<section>
+					<section class="scrollable">
 					<h2>Why use radar remote sensing?</h2>
-					<p>Mapping water with microwave portion of the electromagnetic spectrum is one of the major application fields of 
+					<p>Mapping water with the microwave portion of the electromagnetic spectrum is one of the major application fields of 
 					radar remote sensing.</p>
 						<ul>
 							<li>All weather capability - penetrates clouds</li>
@@ -396,87 +162,282 @@
 					<br><small>Copernicus Sentinel-1 maps floods from Idai (© contains modified Copernicus Sentinel data (2019), Cosmo-SkyMed, processed 
 					by GAF AG/e-GEOS/CMEMS, <a href="https://www.esa.int/ESA_Multimedia/Images/2019/03/Copernicus_Sentinel-1_maps_floods_from_Idai#.X5wttUC8IJg.link">source</a>).</small>
 					</section>
+				</section>				
+				<!-- III. SLIDEs-->  
+				<section id="Water- Physical properties">
+					<section class="scrollable">
+						<h2>Water - Physical properties</h2>
+					<ul>
+						<li>H<sub>2</sub>O acts as a dipole.</li>
+							<ul>
+								<li>Dipole = pair of two commensurate and opposite electric charges</li>
+							</ul>
+						<li>It can be orientational polarized.</li>
+					<div style="width: 50%; float: left;">					
+						<p>Polar H<sub>2</sub>O molecules are randomly oriented when no electric field is present.</p>
+						<br>
+						<br>
+						<br><img width="300" height="200" data-src="resources\template_WhatCopernicus\Polar1.png" alt="PolarMolecule1">
+					</div>
+					<div style="width: 50%; float: left;">
+						<p>If an external electric field (E<sub>0</sub>) is applied, the H<sub>2</sub>O molecules partially align with the field: they are orientational polarized.</p>
+						<br><img width="300" height="250" data-src="resources\template_WhatCopernicus\Polar2.png" alt="PolarMolecule2">
+					</div>
+					<p><small>Orientational polarization of polar molecules (Serway & Beichner, 2004)</small></p>
+							<li>Orientational polarization depends on:</li>
+							<ul>
+								<li>Temperature</li>
+									<ul>
+										<li>In ice (frozen water) the H<sub>2</sub>O dipole are immobilized and therefore show no orientational polarization</li>
+									</ul>
+								<li>Frequency of the alternating electric field</li>
+								<ul>
+									<li>Above a certain frequency – the relaxation frequency – the dipoles cannot follow 
+									the oscillations of the electric field any longer → Microwave remote sensing of water / soil moisture is possible only below 
+									the relaxation frequency of water (≈10 GHz)! </li>
+								</ul>
+							</ul>
+						</ul>
+					</section>	
+					<section class="scrollable">
+						<h2>Water - Dielectric properties</h2>
+						<ul>
+							<li>If dipoles are orientational polarized they show strong interaction with electric field → high dielectric constant (&#949<sub>r</sub>).</li>
+							<li>Dielectric constant of a material (e.g. soil) is directly related to its water content.</li>
+							<li>Dielectric properties determine scattering and attenuation characteristics of a medium. (attenuation = decrease in the 
+							strength of a signal as an electromagnetic wave travels through a medium)</li>
+							<li>Dielectric constant is a dimensionless parameter. It is low for dry and high for wet mediums / objects.</li> 
+							<li>Examples:</li>
+							<ul>
+								<li>dry soil: &#949<sub>r</sub> ≈ 2-4</li>
+								<li>water: &#949<sub>r</sub> ≈ 73 (at 5 GHz [C-band, e.g. Sentinel-1] and 20°C)</li>									
+							</ul>
+							<br>
+							<li>As an elctromagnetic wave travels through a medium (water) its energy is exponentially attenuated.</li>
+							<li>Penetration depth into water surfaces is very small (in the range of a few millimeters).</li>
+							<ul>
+								<li>Penteration depth is defined as a function of the dielectric constant and the wavelength.</li>
+								<ul>
+									<li>The longer the wavelength the greater the penetration depth at a given dielectric constant.</li>
+									<li>The larger dielectric constant the smaller the penetration depth at a given wavelength.</li>
+								</ul>
+							</ul>
+						</ul>
+								<aside class="notes">
+						
+						</aside>			
+					</section>
+					<section class="scrollable">
+						<h2>Water - Summary</h2>
+						<ul>
+							<li>Liquid water as an abundant natural material shows orientational polarization.</li>
+							<li>Water surfaces or very wet soils show high dielectric constant.</li>
+							<li>Impinging wave on calm water is scattered back almost entirely.</li>
+							<p><img width="600" height="400" data-src="resources\template_WhatCopernicus\Water.jpg" alt="Water"></p>
+							<p><small>© pixbay (<a href="https://phys.org/news/2019-02-water-splitting-catalyst.html">source</a>)</small></p>
+						</ul>
+					</section>
 				</section>
-				<!-- V. SLIDEs-->  
+
+				<!-- IV. SLIDEs-->  
 				<section id="Principles of imaging radar">
 					<section class="scrollable">
 						<h2>Principles of imaging radar</h2>
 						<ul>
-							<li>Active remote sensing system - system transmits energy (pulses) and detects reflected responses (echos) from objects</li>
-							<li>Energy is tranmitted and recorded by radar antenna: Real Aperture Radar (RAR, airborne), Synthetic Aperture Radar (SAR, satellite) systems</li>
-							<li>To distinguish between objects, systems operate in side looking geometry</li>
-						</ul>
+							<li>RADAR: RAdio Detection And Ranging</li>
+							<li>Active microwave imaging system - system transmits energy (pulses) and detects reflected responses (echos) from objects</li>
+							<p><img width="600" height="400" data-src="resources\template_WhatCopernicus\ElectromagneticSpectrum.jpg" alt="Electromagnetic Spectrum"></p>
+							<p><small>The electromagnetic spectrum (© EO Collge)</small></p>
+							<p><small>Learn more about the microwaves in this <a href="https://www.youtube.com/watch?v=UZeBzTI5Omk&feature=youtu.be">video</a> (Tour of the EMS 03 - Microwaves, © ScienceAtNASA)</small></p>
+							<li>Energy is tranmitted and recorded by radar antenna: Real Aperture Radar (RAR, airborne), Synthetic Aperture Radar (SAR, satellite) systems.</li>
+				
+					</section>
+					<section>
+					<h2>Side-looking acquisition geometry</h2>
+					<p>To distinguish between objects, Synthetic Aperture Radar (SAR) systems operate in side-looking geometry.</p>
 					<div style="width: 50%; float: left;">
 						<br><img width="420" height="350" data-src="resources\template_WhatCopernicus\RadarGeometry.png" alt="Side-looking geometry">
-						<br><small>Radar Imaging Geometry (© DLR, <a href="https://www.esa.int/ESA_Multimedia/Images/2019/03/Copernicus_Sentinel-1_maps_floods_from_Idai#.X5wttUC8IJg.link">source</a>)</small>
+						<br><small>Radar Imaging Geometry (© DLR)</small>
 					</div>
 					<div style="width: 50%; float: left;">
 						<br>
-						<p style="text-align:left">Azimuth - along-track direction, parallel to the radar flight path</p>
-						<p style="text-align:left">Range - across-track direction, perpendicular to the radar fligth path</p>
-						<p style="text-align:left">Ground range - range direction projected onto the Earth`s reference plane</p>
+						<p style="text-align:left">Azimuth: along-track direction, parallel to the radar flight path</p>
+						<p style="text-align:left">Range: across-track direction, perpendicular to the radar fligth path</p>
+						<p style="text-align:left">Ground range: range direction projected onto the Earth`s reference plane</p>
 						<p style="text-align:left"> <small>Learn more about the basics of radar imaging geometry in <a href="https://www.geos.ed.ac.uk/~ihw/hype/radar/intro2radar.html">
-						these animations.</a> These animations were created by Iain H. Woodhouse, forestplanet.wordpress.com.</small></p>
+						these animations.</a> They were created by Iain H. Woodhouse, <a href="https://forestplanet.wordpress.com/">forestplanet.wordpress.com</a>.</small></p>
 					</div>
-						<aside class="notes">
-						
-						</aside>
+					</section>
+					<section class="scrollable">
+					<h2>Synthetic Aperture Radar (SAR)</h2>
+					<ul>
+						<li>The spatial resolution in azimuth direction is directly related to the ratio of the sensor wavelength (<i>&#955</i>) to the 
+						length of the sensor's antenna (<i>L<sub>real</sub></i>): the larger the antenna, the finer the resolution.</li>
+						<li>For a wavelength of about 5 cm (e.g. Sentinel-1), a radar antenna of approximately 3.5 km would be needed in order to get spatial resolution of 10 m.</li>
+						<li>To enable the development of high-resolution radar systems in space, the concept of synthetic aperture radar was developed.</li>
+						<li>Synthetic aperture is simulated through multiple subsequent positions of the real antenna along the fligth path.</li>
+						<p><img width="550" height="350" data-src="resources\template_WhatCopernicus\SAR.png" alt="SAR"></p>
+						<p><small>Concept of the Synthetic Aperture Radar; <i>L<sub>synth</sub></i> represents a length of the synthetic radar antenna, <i>L<sub>real</sub></i> is a 
+						length of the real radar antenna, <i>V</i> is sensor velocity, <i>&#916a<sub>real</sub></i> represents real resolution, <i>&#916a<sub>synth</sub></i> is synthetic resolution, <i>R</i> represents distance between the sensor and target, 
+						<i>&#955</i> is a sensor wavelength (modified after DLR)</small></p>
+					</ul>
+					<p>Learn more about the Spaceborne Synthetic Aperture Radar in <a href="https://gis1.servirglobal.net/TrainingMaterials/SAR/Chp2Content.pdf">this paper</a> (Meyer, 2019).</p>
+					</section>
+					<section class="scrollable">
+					<h2>SAR backscatter</h2>
+					<ul>
+						<li>Basic SAR measurements provide the amplitude and phase as a complex image.</li>
+						<ul>
+							<li>Amplitude is an amount of returning energy.</li>
+							<ul>
+								<li><i>A</i> is the amplitude image and <i>I</i>=<i>A<sup>2</sup></i> the intensity image.</li>
+							</ul>
+							<li>Phase represents time delay information.</li>
+							<ul>
+								<li>The phase of a single image is not exploitable.</li>
+							</ul>
+						<li>To better interpret the SAR backscatter image, it is streched into the decibel values (dB). Low values represent flat water surfaces, high values man-made objects.</li> 
+					<p><img width="600" height="500" data-src="resources\template_WhatCopernicus\Sentinel1.png" alt="Sentinel-1"></p>
+					<p><small>Example of a SAR intensity image, Thorn (Poland), the city of the birth of Nicolaus Copernicus (© contains modified Copernicus Sentinel data (2019), processed by FSU Jena)</small></p>
+						</ul>
+					</ul>
+					</section>
+				</section>
+				<!-- V. SLIDEs-->  
+				<section id="Parameters influencing SAR image - Sensor parameters">
+					<section class="scrollable">
+					<h2>Parameters influencing SAR image</h2>
+					<h2>Sensor parameters</h2>
+					<ul>
+						<li>Wavelength/Frequency (X, C, L, P bands)</li>						
+						<li>Polarization (HH, VV, HV, VH)</li>	
+						<li>Incidence angle</li>
+						<p><img width="600" height="350" data-src="resources\template_WhatCopernicus\Sentinel-1_radar_modes.jpg" alt="SAR Sensor"></p>
+						<p><small>Sentinel-1 (© ESA/ATG medialab)</small></p>
+					</ul>
+					</section>
+					<section class="scrollable">
+					<h2>Wavelength/Frequency</h2>
+					<p><img width="450" height="125" data-src="resources\template_WhatCopernicus\SARWavelength.png" alt="SAR Wavelength"></p>
+					<small>Typical radar frequency bands: marked in red (modified after Ouchi, 2013)</small>
+					<ul>
+						<li>The radar signals interacts with objects as large as or larger than the used wavelength. 
+						Smaller Objects are transparent to the radar signal.</li>
+						<li>The wavelength is linked to the penetration depth of the transmitted signal. 
+						Larger wavelengths can penetrate deeper into medium.</li>
+						<li>Water surfaces can be well detected with all typical SAR wavelengths.</li>
+						<li>For the detection of flooded vegetation, L-band wavelength or larger are preferred.</li>
+					</ul>
+					<p><img width="600" height="200" data-src="resources\template_WhatCopernicus\Frequency.png" alt="Frequency"></p>
+					<small>Detection of flooded areas with different frequencies (Podest, 2018; <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">source</a>)</small>
+					</section>
+					<section class="scrollable">
+					<h2>Polarization</h2>
+					<div style="width: 50%; float: left;">
+						<p>Polarization characterizes the orientation of the transmitted and received electric field. 
+						The polarization of a transmitted wave can change through interaction with specific objects on the Earth’s surface.</p>
+						<ul>
+							<li>HH: horizontally transmitted, horizontally received</li>
+							<li>VV: vertically transmitted, vertically received</li>
+							<li>VH: vertically transmitted, horizontally received</li>
+							<li>HV: horizontally transmitted, vertically received</li>
+					</div>
+					<div style="width: 50%; float: left;">
+						<p><img width="410" height="400" data-src="resources\template_WhatCopernicus\Polarization.png" alt="Polarization"></p>
+						<p><small>Examples of radar systems operating in VV and HH polarization (Jensen, 2000)</small></p>
+					</div>
+					<p><img width="500" height="250" data-src="resources\template_WhatCopernicus\Polarization_Lband.png" alt="L band image"></p>
+					<small>Detection of flooded areas with different polarization (Podest, 2018; <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">source</a>)</small>
+					<p>Co-polarized signals (HH, VV) area preferred for flood mapping under canopy cover, 
+					cross-polarized (HV, VH) signals are suitable for mapping open water surfaces.</p>
+					</section>
+					<section class="scrollable">
+					<h2>Incidence angle</h2>
+					<ul>
+						<li>The incidence angle characterizes the angle between the direction of illumination and the normal to the Earth’s surface. 
+						For a flat terrain, steeper incidence angles are usually found in near range and shallow incidence angles in far range.</li>
+						<li>The signal path through a medium (e.g. vegetation canopy) is longer for shallow angles than for steep angles.</li>
+						<li>The amount of returning signal is usually larger for steeper angles than for shallower angles.</li>
+						<p><img width="600" height="240" data-src="resources\template_WhatCopernicus\IncidenceAngle.png" alt="Incidence Angle"></p>
+						<p><small>Effect of incidence angle variation (Podest, 2018; <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">source</a>)</small></p>
 					</section>
 				</section>
 				<!-- VI. SLIDEs-->  
-				<section id="Parameters influencing radar image">
+				<section id="Parameters influencing SAR image - Object parameters">		
 					<section class="scrollable">
-					<h2>Parameters influencing radar image</h2>
-					<p><b>Sensor parameters</p></b>
+					<h2>Parameters influencing SAR image</h2>
+					<h2>Object parameters</h2>
 					<ul>
-						<li>Wavelength/Frequency (X, C, L, P bands)</li>
-						<p><img width="450" height="125" data-src="resources\template_WhatCopernicus\SARWavelength.png" alt="SAR Wavelength"></p>
-						<p><small>(Ouchi, 2013)</small></p>
-						<li>Polarization (HH, VV, HV, VH)</li>
-						<p><img width="310" height="300" data-src="resources\template_WhatCopernicus\Polarization.png" alt="Polarization"></p>
-						<p><small>(Jensen, 2000)</small></p>
-						<li>Incidence angle - angle between incident radar beam, i.e. a focused pulse of energy, and the vertical (normal) to 
-						the Earth's surface</li>
-						<li>Resolution</li>
-					</ul>
-						<aside class="notes">
-						
-						</aside>
-					</section >
-					<section class="scrollable">
-					<h2>Parameters influencing radar image</h2>
-					<p><b>Object parameters</p></b>
+						<li>Water content</li>
+						<li>Surface structure and roughness</li>
+						<li>Local slope and orientation</li>
+						<p><img width="600" height="330" data-src="resources\template_WhatCopernicus\HurricaneHarvey.jpg" alt="Hurrican Harvey"></p>
+						<p><small>Example of flooded land by Hurricane Harvey in Texas in 2017 (© SC NATIONAL GUARD/FLICKR; <a herf="https://www.sciencenews.org/article/climate-change-economic-cost-united-states">source</a>)</small></p>
+						</ul>
+					</section>
+					<section class="scrollable">	
+					<h2>Water content</h2>
 					<ul>
-						<li>Structure (size, orientation, distribution of the objects - scattering surfaces)</li>
-						<li>Water content (dielectric constant)</li>
-						<li>Surface roughness (scattering mechanisms)</li>
-						<div style="width: 50%; float: left;">
-							<p><img width="350" height="200" data-src="resources\template_WhatCopernicus\SurfaceRoughness.jpg" alt="Surface Roughness"></p>
-						</div>
-						<div style="width: 50%; float: left;">
-							<p><img width="350" height="275" data-src="resources\template_WhatCopernicus\DielectricConstant.png" alt="Dielectric Constant"></p>
-						</div>
-						<p><small>(© Humboldt State Univeristy, <a href="http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson7-2/interpreting-radar.html">source</a>)</small></p>
-						<li>Local slope and orientation (radar geometric distortions)</li>
-						<p><img width="400" height="350" data-src="resources\template_WhatCopernicus\GeometricDistortion.png" alt="Geometric Distortion"></p>
-						<p><small>(© ESA, <a href="https://earth.esa.int/handbooks/asar/CNTR1-1-2.html">source</a>)</small></p>
+					<li>The backscattered signal depends on the dielectric properties of illuminated objects.</li>
+					<li>Dielectric properties of soil depends on:</li>
+						<ul>
+							<li>Water content</li>
+							<li>Mineral and organic composition</li>
+							<li>Soil air</li>
+							<li>Salt content</li>
+						</ul>
+					<li>The wetter a soil, the more signal is returned and the brighter it appears in the SAR image (diffuse scattering).</li>
+					<li>If a soil is flooded, another backscattering mechanism happens and it appears dark in the SAR image (specular reflection).</li>
 					</ul>
-						<aside class="notes">
-						
-						</aside>
-					</section>										
+						<p><img width="500" height="445" data-src="resources\template_WhatCopernicus\DielectricConstant.png" alt="Dielectric Constant"></p>
+						<p><small>Water content and scattering mechanisms (© Humboldt State Univeristy, <a href="http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson7-2/interpreting-radar.html">source</a>)</small></p>
+					</section>
+					<section class="scrollable">	
+					<h2>Surface structure and roughness</h2>
+					<ul>
+						<li>The backscattered signal depends also on the surface roughness.</li>
+						<li>A surface is rough for a specific wavelength 
+						(cf. Parameter influencing SAR image – Sensor parameters – Wavelength).</li>
+						<li>Different scattering mechanisms can be observed depending on the surface roughness.</li>
+					<p><img width="567" height="264" data-src="resources\template_WhatCopernicus\SurfaceRoughness.jpg" alt="Surface Roughness"></p>
+					<p><small>Surface roughness and scattering mechanisms (© Humboldt State Univeristy, 
+					<a href="http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson7-2/interpreting-radar.html">source</a>)</small></p>
+						<li>Rough surfaces show diffuse scattering. The amount of backscatter increases with surface’s roughness. 
+						The wetter an area, the brighter the SAR image.</li>
+						<li>Smooth surfaces show specular reflection: the signal is mirrored and nothing comes back to the sensor. 
+						Flooded areas appear dark in the SAR image.</li>
+						<li>Corner reflections happen when the signal undergoes two subsequent specular reflections on perpendicular surfaces. It happens usually in urban areas, or at tree trucks in flooded vegetation areas. 
+						Almost all the incoming signal is scattered back to the sensor. It appears very bright in the SAR image.</li>
+					</ul>
+					<br>
+					<p>Learn more about how surface structure and roughness affect the SAR image in 
+					<a href="https://gis1.servirglobal.net/TrainingMaterials/SAR/Chp2Content.pdf">this paper</a> (Meyer, 2019).</p>
+					</section>
+					<section class="scrollable">	
+					<h2>Local slope and orientation</h2>
+					<p style="text-align: left;">Due to the side-looking acquisition geometry, the SAR image appears geometrically distorted.</p>
+					<p><img width="450" height="450" data-src="resources\template_WhatCopernicus\GeometricDistortion.png" alt="Geometric Distortion"></p>
+					<p><small>SAR geometric distortions (© ESA, <a href="https://earth.esa.int/handbooks/asar/CNTR1-1-2.html">source</a>)</small></p>
+					<p style="text-align: left;">Three distinct phenomena occurs in the SAR image of relief areas:</p>
+					<ul>
+						<li>Foreshortening areas appear bright in the SAR image. They occur on slope sides facing the sensor, 
+						when the terrain is inclined at a slope smaller than the incidence angle. The hillside appears “compressed” in the SAR image.</li>
+						<li>Layover areas appear very bright in the SAR image. Layover occur on slopes facing the satellite sensor, when the terrain slope is larger than the incidence angle. 
+						The hillside appears “flipped” in the SAR image, as the signal from the top comes back to the sensor before the signal of the base.</li>
+						<li>Shadow areas appear dark in the SAR image. They are situated behind a high feature and characterize areas 
+						that are not reached by the signal.  </li>
+					</ul>
+					</section>
 				</section>
 				<!--VII . SLIDEs-->  
 				<section id="SAR backscatter from water">
 					<section class="scrollable">
 					<h2>SAR backscatter from water</h2>
+					<p> Mapping of water surfaces (waterbodies, wetlands, flooded areas) is based on different backscatter regimes of water 
+						surface and land surface.</p>
 					<ul>
-						<li>Mapping of water surfaces (waterbodies, wetlands, flooded areas) is based on different backscatter regimes of water 
-						surface and land surface.</li>
-						<ul>
-							<li>Calm water surfaces appear smooth and cause specular reflection leading to low backscatter</li>
-							<li>Surrounding land surface appears much rougher causing higher backscatter</li>
-						</ul>
+						<li>Calm water surfaces appear smooth and cause specular reflection leading to low backscatter.</li>
+						<li>Surrounding land surface appears much rougher causing higher backscatter.</li>
 					</ul>
 					<p><img width="649" height="325" data-src="resources\template_WhatCopernicus\BackscatterFromwater.png" alt="Backscatter from water"></p>
 					<p><small>Difference in backscatter mechanisms for open water surfaces and dry land surfaces (after Solbø & Solheim, 2004)</small></p>
@@ -486,17 +447,16 @@
 						<img width="900" height="200" data-src="resources\template_WhatCopernicus\FloodedSoil.png" alt="Flooded soils">
 						<p><small>Changes in radar signal scattered back to the sensor from dry, wet and flooded soil (after Bourgeau-Chavez et al., 2009)</small></p>
 					<ul>
-						<li>A to B: First backscatter increases with increasing soil moisture</li>
+						<li>A to B: First backscatter increases with increasing soil moisture.</li>
 						<li>C: then with increasing water level, backscatter becomes weaker with more and more specular reflection 
-						(scattering away from the sensor)</li>
-						<li>VV polarization sensitive to soil moisture and flood conditions</li>
+						(scattering away from the sensor).</li>
 					</ul>
 					</section>
 				</section>
 				<!--VIII. SLIDEs-->  
-				<section id="Flood mapping - methods">
+				<section id="Flood mapping: mbest practice">
 					<section class="scrollable">
-					<h2>Flood mapping - methods</h2>
+					<h2>Flood mapping: best practice</h2>
 					<ul>
 						<li>One simple and common method for floods mapping is thresholding.</li>
 						<ul>
@@ -506,15 +466,15 @@
 							<li>Results in binary mask (0 = land, 1 = water)</li>				
 					<p><img width="810" height="350" data-src="resources\template_WhatCopernicus\Threshold.png" alt="Threshold"</p>
 					<p><small>Histogram of two Radarsat  SAR images of the same region acquired under different incidence angles (Solbø & Solheim, 2004)</small></p>
-							<li>Contrast between land and open water surface increases with increasing incidence angle</li>
+							<li>Contrast between land and open water surface increases with increasing incidence angle.</li>
 						</ul>
 					</ul>
 					</section>
 				</section>
 				<!--XI. SLIDEs-->  
-				<section id="Flood mapping - example">
+				<section id="Flood mapping: example">
 					<section>
-					<h2>Flood mapping - example</h2>
+					<h2>Flood mapping: hands-on</h2>
 					<p><small>(Source: <a href="https://eo-college.org/courses/echoes-in-space/">ESA Echoes in Space - Hazard: Flood mapping with Sentinel-1</a>)</small></p>
 					<p>In this tutorial you are going to learn how to generate a flood map from SAR images. You will use SNAP software to process two Sentinel-1 images of Myanmar.</p>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/derOXkPCH80" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -526,233 +486,39 @@
 					</form>
 					</section>
 				</section>
-					<!-- AUTHORS: ADD REFERENCES TO YOUR resources,... -->
-					<!--citation>(St Lang & A Traun, 2015) [set border to zero, set background to transparent, figure to be obtained via JQuery from pic/caption collection]</citation-->
-						
-				<!-- AUTHORS:   Option to Jupyter Notebook (Python) AS IFRAME (deriving from the H5P.org site or from a H5P plugin in Moodle, Blackboard, WordPress,...): --> 
-				<!--section data-background-iframe="https://nbviewer.jupyter.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb">
-				</section>
-				
-				<!-- AUTHORS: 1st Option to INCLUDE H5P CONTENT AS IFRAME (deriving from the H5P.org site or from a H5P plugin in Moodle, Blackboard, WordPress,...): --> 
-				<!--section data-background-iframe="https://ideaslab.sbg.ac.at/ideaslab/wp-admin/admin-ajax.php?action=h5p_embed&id=5">
-				</section>
-				
-				<!-- AUTHORS: 2nd Option to INCLUDE H5P CONTENT AS IFRAME (deriving from the H5P.org site or from a H5P plugin in Moodle, Blackboard, WordPress,...): -->
-				<!--section class="scrollable"> 
-					 <iframe src="https://ideaslab.sbg.ac.at/ideaslab/wp-admin/admin-ajax.php?action=h5p_embed&id=5" width="1481" height="1280" frameborder="0" allowfullscreen="allowfullscreen"></iframe></script>
-					</section>
-				<!--AUTHORS: Integration of Jupyter Notebooks from VITO-Platform - user authentification not solved yet -->
-				<!--section class="scrollable"> 
-					 <iframe src="https://notebooks.vgt.vito.be/user/emissoni/lab/tree/PLUS_Test.ipynb" width="1481" height="1280" frameborder="0" allowfullscreen="allowfullscreen"></iframe></script>
-				</section-->	
-					
-					
-				<!--section >
-					<section>
-						<h2>The Copernicus idea</h2>
-						<p>Copernicus comprises two major  <em>components</em>.</p>
-						<ul>
-							<li style="color:#337acc;">Space component</li>
-							<li style="color:#33b5cc;">(Integrated) Ground segment</li>
-						</ul>
-						<br><img width="400" height="200" data-src="resources\template_WhatCopernicus\sat1.jpg" alt="sat1">
-
-					</section>
-					
-					<section >
-						<h2 style="color:#337acc;">Space component (satellites)</h2>
-						<p>The Sentinel family is the backbone of the Copernicus EO space asset</p>
-						<!-- AUTHORS: CREATE A TABLE: --> 
-						<!--table>
-							<thead>
-								<tr>
-									<th><small>Satellite</th>
-									<th><small>Sensor</th>
-									<th><small>Type</small></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Sentinel-1</td>
-									<td>SAR</td>
-									<td>radar</td>
-								</tr>
-								<tr>
-									<td>Sentinel-2</td>
-									<td>MSI</td>
-									<td>optical</td>
-								</tr>
-								<tr>
-									<td>Sentinel-3</td>
-									<td>...</td>
-									<td>...</td>
-								</tr>
-								<tr>
-									<td>Sentinel-5</td>
-									<td>...</td>
-									<td>...</td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-					<section >
-						<h2 style="color:#33b5cc;">Ground segment</h2>
-						<p>The Copernicus integrated ground segment includes</p>
-						<ul>
-							<li>Receiving stations</li>
-							<li>Satellite data storage systems</li>
-							<li>In-situ observation network</li>
-						</ul>
-						<br>
-					</section>
-
-				</section>
-
-				<section >
-					<h3>beyond space assets and data</h3>
-					<br>The fundamental objective of Copernicus is to support <em>global policies and conventions</em> as well as <em>EU regulations and directives</em> with a defined portfolio of geospatial information services.
-				</section>
-				
-				<section >
-				<!-- AUTHORS: make long content scrollable --> 
-					<!--section class="scrollable">
-						<h2>Copernicus services</h2>
-						<p>There are six so-called <em>Copernicus [core] services</em> in six major thematic areas.</p>
-						<table><small>
-							<tr>
-							<ul>
-								<li>Land monitoring</li>
-								<li>Ocean monitoring</li>
-								<li>Atmosphere monitoring</li>
-							</ul>	
-							</tr>
-							<tr><ul>
-								<li>Climate change</li>
-								<li>Emergency management</li>
-								<li>Human security</li>
-							</ul></tr>
-							</small>
-						</table>
-						<br><img width="800" height="130" data-src="resources\template_WhatCopernicus\6services.png" alt="six services">
-						
-						<p>There are six so-called <em>Copernicus [core] services</em> in six major thematic areas.</p>
-						<table><small>
-							<tr>
-							<ul>
-								<li>Land monitoring</li>
-								<li>Ocean monitoring</li>
-								<li>Atmosphere monitoring</li>
-							</ul>	
-							</tr>
-							<tr><ul>
-								<li>Climate change</li>
-								<li>Emergency management</li>
-								<li>Human security</li>
-							</ul></tr>
-							</small>
-						</table>
-						<br><img width="800" height="130" data-src="resources\template_WhatCopernicus\6services.png" alt="six services">
-						
-						<p>There are six so-called <em>Copernicus [core] services</em> in six major thematic areas.</p>
-						<table><small>
-							<tr>
-							<ul>
-								<li>Land monitoring</li>
-								<li>Ocean monitoring</li>
-								<li>Atmosphere monitoring</li>
-							</ul>	
-							</tr>
-							<tr><ul>
-								<li>Climate change</li>
-								<li>Emergency management</li>
-								<li>Human security</li>
-							</ul></tr>							
-							</small>
-						</table>
-						<br><img width="800" height="130" data-src="resources\template_WhatCopernicus\6services.png" alt="six services">
-
-					</section>
-						<section>
-						<img width="150" height="60" data-src="resources\template_WhatCopernicus\CLMS_logo.png" alt="six services">
-						<h2 style="color:#33cc80;">Land monitoring (CLMS)</h2>
-						<p>Copernicus is a European system for monitoring the Earth.</p>
-						<img width="800" height="200" data-src="resources\template_WhatCopernicus\CLand.png" alt="six services">
-						<small>The four Copernicus land monitoring <a href="https://land.copernicus.eu">service</a> components</small>
-					</section>
-					<section>
-						<img width="100" height="100" data-src="resources\template_WhatCopernicus\CMEMS_logo.png" alt="six services">
-						<h2 style="color:#33adcc;">Ocean monitoring (CMEMS)</h2>
-						<p>The Copernicus Marine Environment Monitoring Service focuses on the global ocean.</p>
-						<img width="800" height="200" data-src="resources\template_WhatCopernicus\CMarine.png" alt="six services">
-						<small>The Copernicus marine monitoring <a href="http://marine.copernicus.eu/services-portfolio/access-to-products">service</a> portfolio</small>
-					</section>
-					<section>
-						<img width="250" height="80" data-src="resources\template_WhatCopernicus\CAMS_logo.png" alt="six services">
-						<h2 style="color:#33adcc8c;">Atmosphere monitoring (CAMS)</h2>
-						<p>The Copernicus Marine Environment Monitoring Service focuses on the global ocean.</p>
-						<img width="800" height="200" data-src="resources\template_WhatCopernicus\CAtm.png" alt="six services">
-						<small>The Copernicus atmosphere monitoring <a href="https://atmosphere.copernicus.eu/catalogue#/">service</a> portfolio</small>
-					</section>
-					<section>
-						<h2 style="color:#cc4533d3;">Climate change</h2>
-						<p>...</p>
-					</section>
-					<section>
-						<h2 style="color:#caae60b9;">Emergency management</h2>
-						<p>...</p>
-						<br>
-					</section>
-					<section>
-						<h2 style="color:#33adcc49;">Human security</h2>
-						<p>...</p>
-						<br>
-					</section>
-				</section>
-
-				<section >
-					<section >
-						<h2>The Copernicus ecosystem</h2>
-						<p>Copernicus engages different <em>actor groups</em>.</p>
-						<ul>
-							<li style="color:#bbb7a8;">Data providers</li>
-							<li style="color:#c5b2ca8f;">Service providers</li>
-							<li style="color:#cc5733;">Users and stakeholders</li>
-						</ul>
-						<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\UserUptake.png" alt="User uptake">
-					</section>
-					
-					<section>
-						<h2 style="color:#bbb7a8;">Data providers</h2>
-						<p>Next to the Sentinel satellites there is a series of contributing missions, including commercial providers of very high (spatial) resolution (VHR)  data.</p>
-						<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\SatSubmeter.png" alt="Worldview-2">
-					</section>
-					
-					<section>
-						<h2 style="color:#c5b2ca8f;">Service providers</h2>
-						<p>...</p>
-						<br>
-					</section>
-					
-					<section>
-						<h2 style="color:#cc5733;">Users and stakeholders</h2>
-						<p>...</p>
-						<br>
-					</section>
-				</section>
-				
 				<!-- AUTHORS: CREATE YOUR LIST OF REFERENCES HERE: -->
-				<section> 
+				<section class="scrollable"> 
 				<h2> Reference list </h2>
+				<div align="left">
+				<br>Bourgeau-Chavez, L.L, Riordan, K., Powell, R.B., Miller, N., Nowels, M. (2009). Improving Wetland Characterization with Multi-Sensor, Multi-Temporal SAR and Optical/Infrared Data Fusion, 
+				Advances in Geoscience and Remote Sensing, Gary Jedlovec (Ed.), InTech; ISBN: 978-953-307-005-6, DOI: 
+				<a href="https://www.intechopen.com/books/advances-in-geoscience-and-remote-sensing/improving-wetland-characterization-with-multi-sensor-multi-temporal-sar-and-optical-infrared-data-fu">10.5772/8327</a> 
 				<br>
-				<reference_list>exemplary doi:<br><br>
-				Barbara Hofer (2018). Innovation in geoprocessing for a Digital Earth. International Journal in Digital Earth.
+				<br>EO College materials:
+				<ul>
+					<li>Pathe, C. (2015). Hydrosphere. An Introduction; Availabe at: <a href="https://eo-college.org/resource/hydrosphere_introduction/">Link</a></li>
+					<li>Pathe, C. (2015). Hydrosphere Applications – Wetlands, Waterbodies,  Floods,  Precipitation & River Velocity; 
+					Availabe at: <a href="https://eo-college.org/resource/hydrosphere_applications/">Link</a></li>
+					<li>ESA (2017). Echoes in space. Introduction to Radar Remote Sensing; Available at: <a href="https://eo-college.org/courses/echoes-in-space/">Link</a></li>
+				</ul>
 				<br>
-				<a href="https://doi.org/10.1080/17538947.2017.1379154">10.1080/17538947.2017.1379154</a>
-				</reference_list>
+				<br>Jensen, J.R. (2000). Remote Sensing of the Environment: An Earth Resource Perspective. Prentice Hall, Saddle River.
+				<br>
+				<br>Meyer, F. (2019). Spaceborne Synthetic Aperture Radar: Principles, data access, and basic processing techniques. Synthetic Aperture Radar (SAR) Handbook: 
+				Comprehensive Methodologies for Forest Monitoring and Biomass Estimation; Available at: <a href="https://gis1.servirglobal.net/TrainingMaterials/SAR/Chp2Content.pdf">Link</a>
+				<br>
+				<br>Ouchi, K. (2013). Recent Trend and Advance of Synthetic Aperture Radar with Selected Topics, Remote Sensing 2013, 5(2), 716-807; DOI <a href="https://doi.org/10.3390/rs5020716">10.3390/rs5020716</a>
+				<br>
+				<br>Serway, R. A., Beichner, R. J., & Jewett, J. W. (1999). Physics for Scientists and Engineers with Modern Physics (5th edition). Orlando: Saunders College Publishing.
+				<br>
+				<br>Solbø S. & Solheim, I. (2004). Towards operational flood mapping with satellite SAR, ENVISAT/ERS Symposium, Salzburg, Sep. 2004.
+				<br>
+				<br>Podest, E. (2018). SAR for Flood Mapping. NASA's Applied REmote Sensing Training Program; Available at: <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">Link</a>
+				</div>
 				</section>
 				
 				
-				<section>Slide show ends</section>
+				<!--section>Slide show ends</section-->
 			
                 </section>
 
