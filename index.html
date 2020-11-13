@@ -71,7 +71,7 @@
 					dc:creator "Martyna Stelmaszczuk-Górska, University of Jena";
 					dc:subject "Synthetic Aperture Radar, Copernicus, EO4GEO, WP5, Flood, Earth Observation";
 					dc:abstract "This presentation gives a basic overview on the use of Earth observation data from Synthetic Aperture Radar (SAR) systems for flood mapping. It was prepared using modified EO College materials available at https://eo-college.org/resources/#results";
-					dc:tableOfContents "(1) What is a flood?; (2) Physical properties of water; (3) Why use radar remote sensing?; (4) Principles of imaging radar; 
+					dc:tableOfContents "(1) What is a flood?; (2) Why use radar remote sensing?; (3) Physical properties of water; (4) Principles of imaging radar; 
 					(5) Parameters influencing radar image; (6) SAR backscatter from water;(7) Flood mapping: best practice; (8) Flood mapping: hands-on; (9) Reference list;";
 					dc:description "Learning outcomes: Understand the basics of imaging radar; Understand interaction bewteen Synthetic Aperture Radar (SAR) signal and water; Apply flood mapping using SAR data;";
 					dc:contributor "Clémence Dubois, Carsten Pathe";
@@ -119,15 +119,16 @@
 				</section>
 				<section class="scrollable">
 					<h1 style="color:#34495E">Content of this course</h1>
-						<h2 style="text-align:left">1. What is a flood?</h2></li>
-						<h2 style="text-align:left">2. Physical properties of water</h2>
-						<h2 style="text-align:left">3. Why use radar remote sensing?</h2>
-						<h2 style="text-align:left">4. Principles of imaging radar</h2>
-						<h2 style="text-align:left">5. Parameters influencing SAR image</h2>
-						<h2 style="text-align:left">6. SAR backscatter from water</h2>
-						<h2 style="text-align:left">7. Flood mapping: best practice</h2>
-						<h2 style="text-align:left">8. Flood mapping: hands-on</h2>	
-						<h2 style="text-align:left">9. References</h2>
+						<h3 style="text-align:left; color:#34495E">1. What is a flood?</h3>
+						<h3 style="text-align:left; color:#34495E">2. Why use radar remote sensing?</h3>
+						<h3 style="text-align:left; color:#34495E">3. Physical properties of water</h3>
+						<h3 style="text-align:left; color:#34495E">4. Principles of imaging radar</h3>
+						<h3 style="text-align:left; color:#34495E">5. Parameters influencing SAR image: sensor parameters</h3>
+						<h3 style="text-align:left; color:#34495E">5. Parameters influencing SAR image: object parameters</h3>
+						<h3 style="text-align:left; color:#34495E">6. SAR backscatter from water</h3>
+						<h3 style="text-align:left; color:#34495E">7. Flood mapping: best practice</h3>
+						<h3 style="text-align:left; color:#34495E">8. Flood mapping: hands-on</h3>	
+						<h3 style="text-align:left; color:#34495E">9. References</h3>
 
 				</section>
 
@@ -164,7 +165,7 @@
 					</section>
 				</section>				
 				<!-- III. SLIDEs-->  
-				<section id="Water- Physical properties">
+				<section id="Water - Physical properties">
 					<section class="scrollable">
 						<h2>Water - Physical properties</h2>
 					<ul>
@@ -213,10 +214,10 @@
 								<li>water: &#949<sub>r</sub> ≈ 73 (at 5 GHz [C-band, e.g. Sentinel-1] and 20°C)</li>									
 							</ul>
 							<br>
-							<li>As an elctromagnetic wave travels through a medium (water) its energy is exponentially attenuated.</li>
+							<li>As an electromagnetic wave travels through a medium (water) its energy is exponentially attenuated.</li>
 							<li>Penetration depth into water surfaces is very small (in the range of a few millimeters).</li>
 							<ul>
-								<li>Penteration depth is defined as a function of the dielectric constant and the wavelength.</li>
+								<li>Penetration depth is defined as a function of the dielectric constant and the wavelength.</li>
 								<ul>
 									<li>The longer the wavelength the greater the penetration depth at a given dielectric constant.</li>
 									<li>The larger dielectric constant the smaller the penetration depth at a given wavelength.</li>
@@ -288,7 +289,7 @@
 					<ul>
 						<li>Basic SAR measurements provide the amplitude and phase as a complex image.</li>
 						<ul>
-							<li>Amplitude is an amount of returning energy.</li>
+							<li>Amplitude represents the amount of returning energy.</li>
 							<ul>
 								<li><i>A</i> is the amplitude image and <i>I</i>=<i>A<sup>2</sup></i> the intensity image.</li>
 							</ul>
@@ -402,8 +403,7 @@
 					<p><img width="567" height="264" data-src="resources\template_WhatCopernicus\SurfaceRoughness.jpg" alt="Surface Roughness"></p>
 					<p><small>Surface roughness and scattering mechanisms (© Humboldt State Univeristy, 
 					<a href="http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson7-2/interpreting-radar.html">source</a>)</small></p>
-						<li>Rough surfaces show diffuse scattering. The amount of backscatter increases with surface’s roughness. 
-						The wetter an area, the brighter the SAR image.</li>
+						<li>Rough surfaces show diffuse scattering. The amount of backscatter increases with surface’s roughness.</li>
 						<li>Smooth surfaces show specular reflection: the signal is mirrored and nothing comes back to the sensor. 
 						Flooded areas appear dark in the SAR image.</li>
 						<li>Corner reflections happen when the signal undergoes two subsequent specular reflections on perpendicular surfaces. It happens usually in urban areas, or at tree trucks in flooded vegetation areas. 
@@ -513,7 +513,7 @@
 				<br>
 				<br>Solbø S. & Solheim, I. (2004). Towards operational flood mapping with satellite SAR, ENVISAT/ERS Symposium, Salzburg, Sep. 2004.
 				<br>
-				<br>Podest, E. (2018). SAR for Flood Mapping. NASA's Applied REmote Sensing Training Program; Available at: <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">Link</a>
+				<br>Podest, E. (2018). SAR for Flood Mapping. NASA's Applied Remote Sensing Training Program; Available at: <a href="https://appliedsciences.nasa.gov/sites/default/files/session2-%20AdvSAR_0.pdf">Link</a>
 				</div>
 				</section>
 				
